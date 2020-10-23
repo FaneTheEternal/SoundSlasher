@@ -1,0 +1,38 @@
+name: sound_slasher
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+  flutter_svg: 0.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Space Superstars
+      fonts:
+        - asset: assets/SpaceSuperstars.ttf
+
+  assets:
+    - assets/SVG/Discord-Logo-Color.svg
+    - assets/SVG/Google_Chrome_icon.svg
+    - assets/SVG/instagram.svg
+    - assets/SVG/spotify_Logo.svg
+    - assets/SVG/Telegram_logo.svg
+    - assets/SVG/VK.com-logo.svg
