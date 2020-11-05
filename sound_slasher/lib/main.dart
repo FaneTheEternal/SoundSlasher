@@ -1,7 +1,9 @@
 import 'dart:ui';
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/avd.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -11,6 +13,8 @@ const ChromeSVG = 'assets/SVG/Google_Chrome_icon.svg';
 const SpotyfySVG = 'assets/SVG/spotify_Logo.svg';
 const InstagramSVG = 'assets/SVG/instagram.svg';
 const TelegramSVG = 'assets/SVG/Telegram_logo.svg';
+
+const ANDROID_CHANNEL = 'sound_slasher.flutter.dev/sound_slasher';
 
 void main() {
   runApp(SoundSlasherApp());
